@@ -5,8 +5,5 @@ hello nhieu the
 hello okok
 hello tiep
 hello nua di
-<<<<<<< Updated upstream
 hello demo
-=======
 hello ok
->>>>>>> Stashed changes
