@@ -28,13 +28,4 @@ class PostController extends Controller
             ->toArray();
     }
 
-    public function index20()
-    {
-        $posts = Post::all();
-        return fractal()->collection($posts)
-            ->transformWith(new PostTransformer)
-            ->parseIncludes('user')
-            ->toArray();
-    }
-
 }
