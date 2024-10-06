@@ -59,4 +59,11 @@ class UserController extends Controller
         return $this->sendResponse($response, 'success');
     }
 
+    public function queueJob2000() {
+        $name = 'Kien Le Van';
+//        SendEmailJob::dispatch($name);
+        $response = Http::get(url('/users'));
+        return $this->sendResponse($response, 'success');
+    }
+
 }
